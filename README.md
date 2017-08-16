@@ -3,11 +3,11 @@
 
 Topics Covered
 
-Basic Syntax
-Data Tyoes
-Variables
-Optionals
-Constants
+#Basic Syntax
+#Data Tyoes
+#Variables
+#Optionals
+#Constants
 Literals
 Operators
 Decision Making
