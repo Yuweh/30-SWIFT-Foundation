@@ -1,0 +1,10 @@
+01-Basic Syntax
+
+import Cocoa / UIKIT / Foundation
+
+var myString = "Hello, World!"
+
+Print (myString)
+
+Comments (// or /* */)
+No more semicolons for each line :D
