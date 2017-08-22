@@ -1,0 +1,19 @@
+//Strings in Swift 3 / 4
+import UIKit
+
+var str: String = "Hello, playground"
+
+var firstName = "Francis"
+var lastName = "Yuweh"
+var age = 30
+
+//string concatenate
+var fullName = firstName +  " " + lastName
+
+//string interpolation
+var fullName2 = "\(firstName) \(lastName) is \(age)"
+
+//append or add variables
+fullName.append(" IX")
+
+
