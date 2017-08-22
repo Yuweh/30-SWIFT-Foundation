@@ -16,4 +16,7 @@ var fullName2 = "\(firstName) \(lastName) is \(age)"
 //append or add variables
 fullName.append(" IX")
 
+var bookTitle = "revenge of the crab cakes"
+bookTitle = bookTitle.capitalized
+
 
