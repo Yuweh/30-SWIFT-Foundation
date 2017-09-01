@@ -20,3 +20,43 @@ var bookTitle = "revenge of the crab cakes"
 bookTitle = bookTitle.capitalized
 
 
+// var and let
+
+var hello = "Hello, playground"
+let myHello = "Hi! I'm Francis"
+
+//Strings
+
+let name = "Francis"
+
+//Concatenate
+
+print("Hello " + name)
+
+// Integer (whole number)
+
+var myInt = 10
+print(myInt * 2)
+
+//Challenge
+//my Int + 100
+//print your name
+
+myInt = myInt + 100
+myInt = myInt / 5
+
+print(myInt)
+
+//String Interpolation
+
+print("myInt has value \(myInt)")
+
+//another challenge
+
+let myName = "Francis"
+let age = 30
+
+print("My name is " + name)
+print("My name is \(myName)")
+
+
