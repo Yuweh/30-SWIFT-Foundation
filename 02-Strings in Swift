@@ -20,6 +20,10 @@ var bookTitle = "revenge of the crab cakes"
 bookTitle = bookTitle.capitalized
 
 
+//: Playground - noun: a place where people can play
+
+import UIKit
+
 // var and let
 
 var hello = "Hello, playground"
@@ -58,5 +62,22 @@ let age = 30
 
 print("My name is " + name)
 print("My name is \(myName)")
+
+//Doubles and Floats
+
+var a: Double = 1.75
+var b: Float = 1.5
+var c = 1.5
+
+print (a * c)
+
+//Bool or Boolean
+
+let gameOver = false
+
+var Success = true
+
+
+
 
 
