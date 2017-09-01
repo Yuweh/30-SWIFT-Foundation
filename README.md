@@ -4,10 +4,14 @@ Playgroundz XD
 Topics Covered
 
 #Basic Syntax
-#Data Tyoes
-#Variables
+
+#Data Types
+
+#Variables and Constants
+
+
 #Optionals
-#Constants
+#
 Literals
 Operators
 Decision Making
