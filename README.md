@@ -1,7 +1,7 @@
 # 30-SWIFT-Foundation
 Playgroundz XD
 
-Topics Covered
+## Foundation
 
 #Basic Syntax
 
@@ -9,6 +9,11 @@ Topics Covered
 
 #Variables and Constants
 
+## Others Resources
+
+# RoadMap
+# Tools
+# Referrences
 
 #Optionals
 #
