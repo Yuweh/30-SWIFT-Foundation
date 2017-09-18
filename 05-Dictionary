@@ -1,0 +1,6 @@
+/* There are 3 Collection Types in Swift
+Arrays - ordered list, not necessarily same type of values, and could even same values
+Sets - unique values  
+Dictionaries - each values are accessed thru assigned "keys"
+
+*/
