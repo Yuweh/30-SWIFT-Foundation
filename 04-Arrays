@@ -1,0 +1,11 @@
+04-Arrays
+
+//Bad way
+Employee1salary = 11000
+Employee2salary = 12000
+Employee3salary = 11000
+Employee4salary = 12000
+Employee5salary = 11000
+
+//Mo Betta XD
+EmployeeSalaries = [11000, 12000, 11000, 12000, 11000]
