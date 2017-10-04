@@ -9,3 +9,42 @@ Employee5salary = 11000
 
 //Mo Betta XD
 EmployeeSalaries = [11000, 12000, 11000, 12000, 11000]
+
+Code Snippets
+
+10.04.2017
+print ("Hello Arrays and Dictionaries")
+//Welcome to the Show, will learn a lot here at XiApps
+/*You can only read this because it's a comment, thanks for dropping by XD
+ now back to regular programming */
+
+var name = "Francis" //you can make this BS, just kidding
+var purpose = "to teach and guide" //possibly also to irritate you as you see all this comments XD
+
+print ("Welcome to Collection Types, my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start with Arrays")
+
+var list1 = ["Gundam", "Cycling", "Making my family happy especially my wife and kids" ]
+//an array is is an ordered list of values and counting starts at 0 ...
+
+list1.count //result to 3, as there are 3 values at list1
+
+list1.append("Xian Jae")
+//will check if its now added to our array
+
+list1.count //now with 4
+
+//now for an example
+
+var family: [String] = []
+
+family.append("Francis")
+family.count
+family.append("Fae")
+family.append("Xian Jae")
+
+for member in family {
+    print ("God loves and guides \(member)")
+}
