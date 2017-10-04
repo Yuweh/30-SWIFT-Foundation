@@ -11,3 +11,43 @@ Multiply *
 Divide /
 
 Code Snippets
+
+##Insert Exercise Here
+
+//Exercise 10.04.2017 -> Practicing Optionals XD
+//start with a warm-up XD
+
+let constant = "constant is unmutable"
+print (constant)
+
+var myname = "Francis"
+print (myname)
+
+//String Interpolation
+print ("My name is \(myname) and I found out that \(constant)")
+
+//Enough for the Warm-up, now for the exercise
+/* Time for optionals _^ */
+
+var integer: Int = 9
+var optionalInt: Int? = 10
+
+//Unwraping optionals
+
+var optionalInt1: Int? = 7
+var optionalInt2: Int? = 5
+//without force unwrapping, summing this up will result to build up error
+
+//Forced Unwrapping
+
+var sum = optionalInt1! + optionalInt2!
+print ("the sum of two optional Integers is \(sum)")
+//Well done kid XD
+
+sum = integer + optionalInt!
+print (sum)
+
+print("hello")
+print("welcome back playgrounds after suddenly falling asleep")
+
+var sum2 = optionalInt1! + integer
