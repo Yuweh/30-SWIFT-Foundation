@@ -2,5 +2,42 @@
 Arrays - ordered list, not necessarily same type of values, and could even same values
 Sets - unique values  
 Dictionaries - each values are accessed thru assigned "keys"
-
 */
+
+####CODE SNIPPETS################
+
+10.04.2017
+print ("Topic about Collection Types like Arrays and Dictionaries")
+//Welcome to the Show, will learn a lot here at XiApps
+/*You can only read this because it's a comment, thanks for dropping by XD
+ now back to regular programming */
+
+var name = "Francis" //you can change this to *BS, just kidding
+var purpose = "to teach and guide" //possibly also to irritate you as you see all this comments XD
+
+print ("Welcome to Collection Types, my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start Dictionaries")
+//Dictionaries are group of key-paired values,
+
+var familyTree: [String: String] = [:]
+//almost same with Arrays but now comes with pairs and with : to set key and value relationship
+
+familyTree["Daddy"] = "Francis"
+familyTree["Mommy"] = "Fae"
+//added members, now to check if it's included
+print (familyTree.count)
+print (familyTree)
+
+var numberOfFamilyMembers = familyTree.count
+print ("The family has \(numberOfFamilyMembers) members")
+
+//our newest member
+familyTree["Baby Boy"] = "Xian Jae"
+print ("The family has \(numberOfFamilyMembers) members and just joined by \(familyTree["Baby Boy"]!)")
+print ("Our baby boy is \(familyTree["Baby Boy"]!)")
+
+//Another Code Example
+var characterStats: [String: Int] = ["STR":0, "INT":0, "VIT":0, "DEX":0, "LCK":0]
+print ("The base character stat for this game is this \(characterStats)")
