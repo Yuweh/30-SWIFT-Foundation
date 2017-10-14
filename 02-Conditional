@@ -9,3 +9,29 @@ Logocal Operators (Example)
 The Nested if/else Construct
 
 Code Snippets
+
+//Welcome to the Show, will learn a lot here at XiApps
+/*You can only read this because it's a comment, thanks for dropping by XD
+ now back to regular programming */
+
+var name = "Francis"
+var purpose = "to teach and guide"
+var topic = "Conditionals"
+print ("Welcome to \(topic), my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start the Lesson about \(topic)")
+
+//var grade = arc4random_uniform(101)
+var grade = 86
+    if  grade < 75 {
+        print("You need to improve, so Study Harder!")
+    } else if grade >= 85 {
+        print("You are doing good, study more and you got more what it takes!")
+    } else if grade >= 90 {
+        print("You are doing great, keep it up!")
+    } else if grade >= 95 {
+print("Excellent")
+    } else {
+print("Perfect")
+}
