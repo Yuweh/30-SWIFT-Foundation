@@ -1,1 +1,77 @@
+//credits to Angela Yu of London App Brewery's lesson about Functions :D
+
+//Welcome to the Show, will learn a lot here at XiApps
+/*You can only read this because it's a comment, thanks for dropping by XD
+ now back to regular programming */
+
+var name = "Francis"
+var purpose = "to teach and guide"
+var topic = "Functions"
+print ("Welcome to Functions, my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start the Lesson about \(topic)")
+
+//Anatomy of Function
+//Ex. Command-> func functionName (Parameter1 : Type, Parameter2 : Type) -> return (to what type) { return }
+//above example fully seen on version 3 of getMilk function below
+
+
+//Creating the getMilk1() function - Version 1 demonstrates a number of instructions that could bundled within function
+func getMilk() {
+    print("received order to get milk")
+    print("go to the shops")
+    print("buy 2 cartons of milk")
+    print("pay 100")
+    print("come home")
+}
+
+//version 2 of getMik() -> the function could now take INPUTs from and use it in executing its function
+func getMilK2(howManyMilkCartons : Int) {
+        print("received order to get milk")
+        print("go to the shops")
+        print("buy \(howManyMilkCartons) cartons of milk")
+
+        let priceToPay = howManyMilkCartons * 560 //php for each milk
+
+        print("pay \(priceToPay)")
+        print("come home")
+}
+
+//version 3 of getMilK() it doesn't only take 2 parameters here but also returns an output in a form of change from the howMuchWasGiven
+func getMilK3(howManyMilkCartons : Int, howMuchWasGiven : Int) -> Int {
+        print("received order to get milk")
+        print("go to the shops")
+        print("buy \(howManyMilkCartons) cartons of milk")
+
+        let priceToPay = howManyMilkCartons * 560 //php for each milk
+
+        print("give \(howMuchWasGiven) and pay \(priceToPay)")
+    
+        let change = howMuchWasGiven - priceToPay
+    
+        print("come home")
+    
+        return change
+}
+
+
+//call the getMilk() function
+
+getMilK3(howManyMilkCartons: 1, howMuchWasGiven: 1000)
+var amountOfChange = getMilK3
+
+//Robot states after buying milk
+print("Hello Master, here's your \(amountOfChange) peso change")
+
+
+
+
+
+
+
+
+
+
+
 
