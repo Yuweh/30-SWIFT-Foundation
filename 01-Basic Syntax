@@ -1,10 +1,15 @@
 01-Basic Syntax
 
 import Cocoa / UIKIT / Foundation
-
 var myString = "Hello, World!"
-
 Print (myString)
 
-Comments (// or /* */)
-No more semicolons for each line :D
+COMMENT
+
+// - Single-line comment
+
+• /* */ - Multi-line comment, can be nested
+
+• /** */ and /// - Used for code documentation.
+
+• // MARK: - Creates sections in Xcode
