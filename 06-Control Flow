@@ -1,0 +1,23 @@
+var name = "Francis"
+var purpose = "to teach and guide"
+var topic = "Control Flow"
+print ("Welcome to \(topic), my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start the Lesson about \(topic)")
+
+func loveCalculator (yourName: String, theirName : String) -> String {
+    let loveScore = arc4random_uniform(101)
+    
+    if loveScore > 80 {
+        return "Your love score is \(loveScore), You love each other very much"
+    } else if loveScore > 40 || loveScore <= 80 {
+        return "Your love score is \(loveScore), it can still be improved"
+    }
+    else {
+        return "Your love score is \(loveScore), No love possible for now, pls. improve^"
+    }
+}
+
+//Access code
+print(loveCalculator(yourName: "Jay", theirName: "Fae"))
