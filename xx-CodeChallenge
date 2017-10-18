@@ -1,0 +1,14 @@
+var name = "Francis"
+var purpose = "to teach and guide"
+var topic = "CODE CHALLENGE: BMI CALCULATOR"
+print ("Welcome to \(topic), my name is \(name) and I'm here to \(purpose) you")
+//nice XD
+
+print("Let'start the Lesson about \(topic)")
+
+func bmiCalculator (mass: Double, height: Double) -> Double {
+    let bmiResult = (mass / (height*height))
+    return bmiResult
+}
+
+bmiCalculator(mass: 80, height: 5.7)
