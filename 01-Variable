@@ -4,6 +4,18 @@ var
 Constant Declaration
 let
 
+Data Types
+String
+Integers
+Float
+Double
+Bool
+
+Tuples 
+Two Values
+and Multiples Values
+
+
 Mathematical Operations
 Add +
 Sub -
