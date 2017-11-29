@@ -1,6 +1,6 @@
-ROAD MAP: iOS Path to Mastery for iOS Development
+# ROAD MAP: iOS Path to Mastery for iOS Development
 
-iOS Path to Mastery for iOS Developers (OVERVIEW)
+## iOS Path to Mastery for iOS Developers (OVERVIEW)
 By Chris Howie @ Trello
 Link Here: https://trello.com/b/gvzEgkw4/ios-path-to-mastery-for-ios-development
 
@@ -79,3 +79,11 @@ Things To-DO! [Medium Articles: Summarized :D]
 - Networking
 - Managing Dependencies
 - Testing
+
+
+# FUTURE PROJECTS
+- Artificial Intelligence
+- Natural Language Processing 
+- Internet Of Things 
+- Robotics 
+- Applied Science
